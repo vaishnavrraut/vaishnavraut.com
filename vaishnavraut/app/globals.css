@@ -1,37 +1,113 @@
-export default function Page() {
-  return (
-    <>
-      <nav className="navbar">
-        <h1 className="logo">Vaishnav Raut</h1>
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+/* Add your CSS rules here */
 
-      <main>
-        <section id="home">
-          <h2>Home</h2>
-        </section>
+/* Reset (important) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        <section id="about">
-          <h2>About</h2>
-        </section>
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
 
-        <section id="projects">
-          <h2>Projects</h2>
-        </section>
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-        <section id="contact">
-          <h2>Contact</h2>
-        </section>
-      </main>
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
 
-      <footer className="footer">
-        <p>&copy; 2024 Vaishnav Raut. All rights reserved.</p>
-      </footer>
-    </>
-  );
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
+
+/* Sections */
+section {
+  min-height: 100vh;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Optional: different section colors */
+#home {
+  background: #111;
+}
+
+#about {
+  background: #1a1a1a;
+}
+
+#projects {
+  background: #111;
+}
+
+#contact {
+  background: #1a1a1a;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  font-size: 14px;
+  border-top: 1px solid #222;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive (don’t skip this) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
 }
