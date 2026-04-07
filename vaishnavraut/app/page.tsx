@@ -12,10 +12,18 @@ export default function Page() {
       </nav>
 
       <main>
-        <section id="home">
-          <h2>Home</h2>
-        </section>
+        <section id="home" className="home">
+  <div className="home-content">
+    <div className="text">
+      <h1>Hi, I'm Vaishnav</h1>
+      <p>I build things with code</p>
+    </div>
 
+    <div className="image">
+      <img src="/profile.jpg" alt="Vaishnav" />
+    </div>
+  </div>
+</section>
         <section id="about">
           <h2>About</h2>
         </section>
@@ -30,7 +38,7 @@ export default function Page() {
       </main>
 
       <footer className="footer">
-        <p>&copy; 2024 Vaishnav Raut. All rights reserved.</p>
+        <p>&copy; 2026 Vaishnav Raut. All rights reserved.</p>
       </footer>
     </>
   );
