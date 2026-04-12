@@ -24,8 +24,11 @@ export default function Page() {
       alt="Vaishnav"
       width={120}
       height={120}
-      className="profile-pic"
-    />
+      style={{
+      borderRadius: "50%",
+      objectFit: "cover"
+  }}
+/>
     </div>
     <div className="text">
       <h1>Hi, I'm Vaishnav</h1>
