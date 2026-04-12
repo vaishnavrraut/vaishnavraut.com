@@ -35,6 +35,9 @@ export default function Page() {
       <p>
   EMS student focused on <strong>data analysis</strong> and <strong>quantitative problem-solving</strong>.
 </p>
+<p>
+  Skilled in Python and statistical tools. I build projects that turn economic theory into real-world insights.
+</p>
     </div>
   </div>
 </section>
