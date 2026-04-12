@@ -16,7 +16,7 @@ export default function Page() {
   <div className="home-content">
     <div className="text">
       <h1>Hi, I'm Vaishnav</h1>
-      <p>I build things with code</p>
+      <p>I am an EMS student with a strong focus on data analysis, quantitative reasoning, and practical application of economic concepts. Skilled in Python and statistical tools, I build projects that translate theory into real-world insights. This portfolio showcases my work, skills, and progress in developing as a data-driven problem solver.</p>
     </div>
 
     <div className="image">
