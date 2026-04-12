@@ -15,7 +15,7 @@ export default function Page() {
         <section id="home" className="home">
   <div className="home-content">
     <div className="image">
-      <img src="/photograph-2.jpg" alt="Vaishnav" />
+      <img src="/photograph-2.jpg" alt="Vaishnav" className="profile-pic" />
     </div>
     <div className="text">
       <h1>Hi, I'm Vaishnav</h1>
