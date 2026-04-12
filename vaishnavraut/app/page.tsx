@@ -1,4 +1,6 @@
 import './globals.css';
+import Image from "next/image";
+
 
 export default function Page() {
   return (
@@ -17,7 +19,13 @@ export default function Page() {
         <section id="home" className="home">
   <div className="home-content">
     <div className="image">
-      <img src="/photograph-2.jpg" alt="Vaishnav" className="profile-pic" />
+      <Image
+      src="/photograph-2.jpg"
+      alt="Vaishnav"
+      width={120}
+      height={120}
+      className="profile-pic"
+    />
     </div>
     <div className="text">
       <h1>Hi, I'm Vaishnav</h1>
