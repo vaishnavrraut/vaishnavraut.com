@@ -115,4 +115,13 @@ html {
   border-radius: 50%;
   object-fit: cover;
 }
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: auto;
+}
 }
