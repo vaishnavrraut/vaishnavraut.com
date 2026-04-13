@@ -176,34 +176,73 @@ section h2 {
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
+  /* NAVBAR */
   .navbar {
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    padding: 15px;
   }
 
   .nav-links {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  section {
-    padding: 60px 20px;
-  }
-
+  /* HERO SECTION */
   .home-content {
     flex-direction: column;
     text-align: center;
+    gap: 25px;
+  }
+
+  .text {
+    max-width: 100%;
   }
 
   .text h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 14px;
   }
 
   .avatar {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
+  }
+
+  /* BUTTON */
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* ABOUT SECTION */
+  .about-container {
+    padding: 0 10px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* GENERAL SECTIONS */
+  section {
+    padding: 60px 20px;
   }
 }
 strong {
   color: #6c63ff;
+}
+body {
+  overflow-x: hidden;
 }
