@@ -1,9 +1,29 @@
 "use client";
+import { useEffect } from 'react';
 import './globals.css';
 import Image from "next/image";
 
 
 export default function Page() {
+  useEffect(() => {
+    const sections = document.querySelectorAll(".fade-in");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <nav className="navbar">
@@ -17,7 +37,7 @@ export default function Page() {
       </nav>
 
       <main>
-        <section id="home" className="home">
+        <section id="home" className="home fade-in">
   <div className="home-content">
     <div className="image">
       <Image
@@ -44,7 +64,7 @@ export default function Page() {
   </div>
 
 </section>
-        <section id="about" className="about">
+        <section id="about" className="about fade-in">
   <div className="about-container">
     
     <h2 className="about-title">About</h2>
@@ -71,7 +91,7 @@ export default function Page() {
   </div>
 </section>
 
-        <section id="projects" className="projects">
+        <section id="projects" className="projects fade-in">
   <div className="projects-container">
     <h2>Projects</h2>
 
@@ -103,7 +123,7 @@ export default function Page() {
   </div>
 </section>
 
-        <section id="contact" className="contact">
+        <section id="contact" className="contact fade-in">
   <div className="contact-container">
     <h2>Contact</h2>
 
