@@ -246,3 +246,35 @@ strong {
 body {
   overflow-x: hidden;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+}
+
+.contact-text {
+  color: #ccc;
+  margin: 15px 0 25px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: #00bcd4;
+}

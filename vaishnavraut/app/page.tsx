@@ -42,7 +42,7 @@ export default function Page() {
 <a href="#projects" className="btn">View Projects</a>
     </div>
   </div>
-  
+
 </section>
         <section id="about" className="about">
   <div className="about-container">
@@ -75,9 +75,22 @@ export default function Page() {
           <h2>Projects</h2>
         </section>
 
-        <section id="contact">
-          <h2>Contact</h2>
-        </section>
+        <section id="contact" className="contact">
+  <div className="contact-container">
+    <h2>Contact</h2>
+
+    <p className="contact-text">
+      I'm open to opportunities, collaborations, and discussions related to data, finance, and technology.
+    </p>
+
+    <div className="contact-links">
+      <a href="mailto:vaishnavraut@gmail.com">📧 Email</a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/your-github" target="_blank">💻 GitHub</a>
+    </div>
+    <p className="contact-text">📍 Bengaluru, India</p>
+  </div>
+</section>
       </main>
 
       <footer className="footer">
