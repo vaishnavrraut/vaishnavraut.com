@@ -1,3 +1,4 @@
+"use client";
 import './globals.css';
 import Image from "next/image";
 
@@ -38,6 +39,7 @@ export default function Page() {
 <p>
   Skilled in Python and statistical tools. I build projects that turn economic theory into real-world insights.
 </p>
+<a href="#projects" className="btn">View Projects</a>
     </div>
   </div>
 </section>
