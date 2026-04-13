@@ -239,6 +239,9 @@ section h2 {
   section {
     padding: 60px 20px;
   }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 strong {
   color: #6c63ff;
@@ -277,4 +280,52 @@ body {
 
 .contact-links a:hover {
   color: #00bcd4;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.tech {
+  font-size: 14px;
+  color: #6c63ff;
+}
+
+.links a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-weight: 600;
 }

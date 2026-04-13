@@ -71,9 +71,37 @@ export default function Page() {
   </div>
 </section>
 
-        <section id="projects">
-          <h2>Projects</h2>
-        </section>
+        <section id="projects" className="projects">
+  <div className="projects-container">
+    <h2>Projects</h2>
+
+    <div className="projects-grid">
+
+      <div className="project-card">
+        <h3>Stock Market Analysis</h3>
+        <p>
+          Analyzed historical stock data using Python to identify trends and visualize price movements.
+        </p>
+        <p className="tech">Python • Pandas • Matplotlib</p>
+        <div className="links">
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <h3>Economic Indicators Dashboard</h3>
+        <p>
+          Explored GDP, inflation, and other indicators to understand economic patterns using data visualization.
+        </p>
+        <p className="tech">Python • Seaborn • Excel</p>
+        <div className="links">
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
         <section id="contact" className="contact">
   <div className="contact-container">
