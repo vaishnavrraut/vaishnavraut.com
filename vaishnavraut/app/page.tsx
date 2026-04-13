@@ -45,6 +45,11 @@ export default function Page() {
 </section>
         <section id="about">
           <h2>About</h2>
+          <p> I am an Economics, Mathematics and Statistics (EMS) student with a strong focus on applying quantitative methods to real-world financial and economic problems. My academic background has helped me build a solid foundation in analytical thinking, statistical reasoning, and data interpretation.
+
+Currently, I am developing projects in data analysis and econometrics using Python, exploring areas such as stock market trends, economic indicators, and basic predictive modeling. I work with tools like pandas, NumPy, matplotlib, seaborn, and Excel to clean datasets, perform analysis, and visualize patterns effectively. I am also familiar with scikit-learn for implementing basic machine learning models.
+
+My goal is to build expertise at the intersection of finance and data, particularly in fintech, quantitative analysis, and economic research, by continuously strengthening my technical toolkit and applying it to real-world problem-solving.</p>
         </section>
 
         <section id="projects">
