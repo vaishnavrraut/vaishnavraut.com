@@ -88,7 +88,7 @@ export default function Page() {
       <a href="https://linkedin.com/in/your-linkedin" target="_blank">💼 LinkedIn</a>
       <a href="https://github.com/your-github" target="_blank">💻 GitHub</a>
     </div>
-    <p className="contact-text">📍 Bengaluru,s India</p>
+    <p className="contact-text">📍 Bengaluru, KA, India</p>
   </div>
 </section>
       </main>
