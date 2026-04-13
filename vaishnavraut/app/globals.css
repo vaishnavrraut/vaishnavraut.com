@@ -109,6 +109,8 @@ section h2 {
 /* TEXT */
 .text {
   max-width: 550px;
+  text-align: left;
+
 }
 
 .text h1 {
@@ -134,6 +136,7 @@ section h2 {
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s ease;
+  background: linear-gradient(135deg, #6c63ff, #00bcd4);
 }
 
 .btn:hover {
