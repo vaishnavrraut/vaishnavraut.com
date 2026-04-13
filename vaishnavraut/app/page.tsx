@@ -42,15 +42,34 @@ export default function Page() {
 <a href="#projects" className="btn">View Projects</a>
     </div>
   </div>
+  
 </section>
-        <section id="about">
-          <h2>About</h2>
-          <p> I am an Economics, Mathematics and Statistics (EMS) student with a strong focus on applying quantitative methods to real-world financial and economic problems. My academic background has helped me build a solid foundation in analytical thinking, statistical reasoning, and data interpretation.
+        <section id="about" className="about">
+  <div className="about-container">
+    
+    <h2 className="about-title">About</h2>
 
-Currently, I am developing projects in data analysis and econometrics using Python, exploring areas such as stock market trends, economic indicators, and basic predictive modeling. I work with tools like pandas, NumPy, matplotlib, seaborn, and Excel to clean datasets, perform analysis, and visualize patterns effectively. I am also familiar with scikit-learn for implementing basic machine learning models.
+    <div className="about-content">
+      <p>
+        I am an Economics, Mathematics and Statistics (EMS) student focused on applying quantitative methods to real-world financial and economic problems.
+      </p>
 
-My goal is to build expertise at the intersection of finance and data, particularly in fintech, quantitative analysis, and economic research, by continuously strengthening my technical toolkit and applying it to real-world problem-solving.</p>
-        </section>
+      <p>
+        Currently, I am building projects in data analysis and econometrics using Python, exploring stock market trends, economic indicators, and predictive modeling.
+      </p>
+
+      <p>
+        My toolkit includes <strong>pandas, NumPy, matplotlib, seaborn, and scikit-learn</strong> for data analysis, visualization, and basic machine learning.
+      </p>
+
+      <p>
+        I aim to build expertise in fintech, quantitative analysis, and economic research by solving real-world problems using data.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
         <section id="projects">
           <h2>Projects</h2>
