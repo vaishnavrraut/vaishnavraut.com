@@ -133,8 +133,8 @@ export default function Page() {
     </p>
 
     <div className="contact-links">
-      <a href="mailto:vaishnavraut@gmail.com">📧 Email</a>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank">💼 LinkedIn</a>
+      <a href="mailto:vaishnavrraut@gmail.com">📧 Email</a>
+      <a href="https://linkedin.com/in/vaishnavraut" target="_blank">💼 LinkedIn</a>
       <a href="https://github.com/your-github" target="_blank">💻 GitHub</a>
     </div>
     <p className="contact-text">📍 Bengaluru, KA, India</p>
