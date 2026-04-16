@@ -47,7 +47,8 @@ export default function Page() {
       height={220}
       style={{
       borderRadius: "50%",
-      objectFit: "cover"
+      objectFit: "cover",
+      objectPosition: "top center",
   }}
 />
     </div>
