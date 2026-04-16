@@ -41,7 +41,7 @@ export default function Page() {
   <div className="home-content">
     <div className="image">
       <Image
-      src="/photograph-2.jpg"
+      src="/photoprof.jpg"
       alt="Vaishnav"
       width={160}
       height={160}
