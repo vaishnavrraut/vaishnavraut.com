@@ -43,8 +43,8 @@ export default function Page() {
       <Image
       src="/photoprof.png"
       alt="Vaishnav"
-      width={220}
-      height={220}
+      width={270}
+      height={270}
       style={{
       borderRadius: "50%",
       objectFit: "cover",
