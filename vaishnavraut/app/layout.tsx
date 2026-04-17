@@ -1,5 +1,9 @@
 import "./globals.css";
 
+export const metadata = {
+  title: "Vaishnav Raut",
+};
+
 export default function RootLayout({
   children,
 }: {

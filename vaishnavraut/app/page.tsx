@@ -3,10 +3,6 @@ import { useEffect } from 'react';
 import './globals.css';
 import Image from "next/image";
 
-export const metadata = {
-  title: "Vaishnav Raut",
-};
-
 export default function Page() {
   useEffect(() => {
     const sections = document.querySelectorAll(".fade-in");
