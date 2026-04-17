@@ -15,7 +15,7 @@ export default function Page() {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.2 }
     );
 
     sections.forEach((section) => observer.observe(section));
